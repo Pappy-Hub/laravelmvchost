@@ -65,7 +65,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Resources
 
--** laravel.com
--** Simple CRUD with Laravel
+-**(https://laravel.com/docs/9.x)**
+-** **
+-** Simple CRUD with Laravel**
 
 __Check out the live project at https://mysterious-waters-56922.herokuapp.com/ hosted on Heroku.__

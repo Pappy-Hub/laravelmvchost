@@ -1,12 +1,12 @@
 @extends('users.layout')
 @section('content')
 <div class="container">
-    <div class="row">
+    <div class="row" style="width: 1400px;">
 
         <div class="col-md-9">
             <div class="card">
                 <div class="card-header">
-                    <h2>Laravel 9 Crud</h2>
+                    <h2>Laravel CRUD 9 User Management System</h2>
                 </div>
                 <div class="card-body">
                     <a href="{{ url('/user/create') }}" class="btn btn-success btn-sm" title="Add New User">
@@ -22,6 +22,7 @@
                                     <th>Name</th>
                                     <th>Address</th>
                                     <th>Mobile</th>
+                                    <th>Email</th>
                                     <th>Actions</th>
                                 </tr>
                             </thead>
@@ -32,6 +33,7 @@
                                     <td>{{ $item->name }}</td>
                                     <td>{{ $item->address }}</td>
                                     <td>{{ $item->mobile }}</td>
+                                    <td>{{ $item->email}}</td>
 
                                     <td>
                                         <a href="{{ url('/user/' . $item->id) }}" title="View User"><button

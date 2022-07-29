@@ -19,6 +19,4 @@ Route::get('/', function () {
 });
 Route::resource("/user", UserController::class);
 
-// Route::get('/createuser', function () {
-//     return view('createuser');
-// });
+Route::get('/users', [UserController::class, 'index'])->name('user.all');
